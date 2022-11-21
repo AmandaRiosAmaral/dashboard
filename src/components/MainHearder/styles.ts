@@ -1,7 +1,23 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
     grid-area: MH;
 
-    background-color: #F2EFE7;
+    background-color: ${props => props.theme.colors.white};
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+`;
+
+export const Profile = styled.div`
+   color: ${props => props.theme.colors.tertiary}
+`;
+
+export const Welcome = styled.h3`
+`;
+
+export const UserName = styled.span`
 `;

@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 /**
 * Layout
 * MH = Main Header
-* AS = Aside
+* MN = Menu
 * CT = Content
 */
 
@@ -14,8 +14,8 @@ export const Grid = styled.div`
     grid-template-rows: 70px auto;
 
     grid-template-areas: 
-    'AS MH'
-    'AS CT';
+    'MN MH'
+    'MN CT';
 
     height: 100vh;
 `;

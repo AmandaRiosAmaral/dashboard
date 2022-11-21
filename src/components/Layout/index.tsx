@@ -2,17 +2,17 @@ import React from 'react';
 import { Grid } from './styles';
 
 import MainHeader from '../MainHearder';
-import Aside from '../Aside';
+import Menu from '../Menu';
 import Content from '../Content';
 
 const Layout: React.FC = () => {
-    return (
-        <Grid>
-            <MainHeader />
-            <Aside />
-            <Content />
-        </ Grid>
-    );
+  return (
+    <Grid>
+      <MainHeader />
+      <Menu />
+      <Content />
+    </ Grid>
+  );
 };
 
 export default Layout;
